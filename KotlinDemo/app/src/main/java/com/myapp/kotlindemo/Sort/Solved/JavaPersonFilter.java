@@ -6,10 +6,6 @@ import com.myapp.kotlindemo.PersonRepository;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by jakhall on 6/21/16.
- */
-
 public class JavaPersonFilter {
     public List<KotlinPerson> getPeopleInAreaCode(String areaCode) {
         List<KotlinPerson> filteredPeople = new ArrayList<>();
